@@ -6,8 +6,6 @@ body{
 }
 
 
-
-
 .navbar-expand-lg{
     font-family: 'Poppins', sans-serif;
     height: 70px;
@@ -52,3 +50,4 @@ p{
 .contact{
     border-bottom-style:  solid;
 }
+
