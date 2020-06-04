@@ -79,5 +79,9 @@ h2{
   }
 
 .githubLink:hover{
-    color: rgb(243, 219, 8);
+    color: rgb(252, 215, 10);
+}
+
+.contactDiv{
+    background-color:  rgb(224, 240, 254);
 }
