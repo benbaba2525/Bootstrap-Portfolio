@@ -85,3 +85,17 @@ h2{
 .contactDiv{
     background-color:  rgb(224, 240, 254);
 }
+
+
+#mypicDiv{
+    margin-top:-300px;
+   
+}
+
+#rowContact{
+    background-color: rgb(37, 110, 245);
+}
+
+#link-linkin, #link-github, #link-email{
+    color: white;
+}
