@@ -17,66 +17,64 @@
  
       
     <!-- Nav Bar  -->
-    <nav class="navbar navbar-expand-lg  navbar-light fixed-top" >
+<nav class="navbar navbar-expand-lg  navbar-light  border border-secondary fixed-top" >
 
-      <div class="container">
-      <div class="navbar-wrapper mb-2">
-      <a class="navbar-brand text-dark" href="index.html"><strong>Kanyarut  Pornamnuay</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <div class="container">
+  <div class="navbar-wrapper mb-2">
+  <a class="navbar-brand text-dark" href="index.html"><strong>Kanyarut  Pornamnuay</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    </div>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-dark" href="index.html"><strong><i>About <span class="sr-only">(current)</span></i></strong></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-dark" href="portfolio.html"><strong><i>Portfolio<span class="sr-only">(current)</span></i></strong></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-dark" href="contact.html"><strong><i>Contact<span class="sr-only">(current)</span></i></strong></a>
-          </li>
-          
-        </ul>
-      </div>
-      </div>
-    </nav>
-
+</div>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="index.html"><strong><i>Home <span class="sr-only">(current)</span></i></strong></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="portfolio.html"><strong><i>Portfolio<span class="sr-only">(current)</span></i></strong></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="contact.html"><strong><i>Contact<span class="sr-only">(current)</span></i></strong></a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+</nav>
    <br><br><br>
- 
 
-<div class="container">
+   <div class="container">
     <div class="row pageRow">
 
 <!-- Contact Form -->
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9  border border-secondary mt-5" >
              <div class="table-responsive">
                <div >
-                <h2 class="text-dark" style="background-color: rgb(224, 240, 254);"><strong><i class="fa fa-comments-o" aria-hidden="true" style="font-size:30px;padding-right:10px; "></i>Let's Chat.</strong></h2>
+                <h2 class="text-dark" style="background-color: rgb(224, 240, 254);"><strong><i class="fa fa-comments-o" aria-hidden="true" style="font-size:30px;padding-right:10px; "></i>Drop Me a Line.</strong></h2>
                   <br><br>
                       
-                      <form>
+                      <form action="mailto:benbaba2525@gmail.com" method="post" enctype="text/plain">
                         <div class="form-group">
                           <label for="formGroupExampleInput"><strong>Your Name</strong></label>
-                          <input type="text" class="form-control"  placeholder="Your Name">
+                          <input type="text" class="form-control" name="Name  " placeholder="Your Name">
                         </div>
                         <div class="form-group">
                           <label for="exampleFormControlInput1"><strong>Email address</strong></label>
-                          <input type="text" class="form-control"  placeholder="name@example.com">
+                          <input type="text" class="form-control" name="Email Address  " placeholder="name@example.com">
                         </div>
                         <div class="form-group">
                           <label for="exampleFormControlTextarea1"><strong>Message</strong></label>
-                          <textarea class="form-control" rows="3"></textarea>
+                          <textarea class="form-control" name="Comment  " rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                        <button type="submit" value = "send" class="btn btn-primary mb-3">Submit</button>
                       </form>
                  </div>
              </div>  
           </div>
 
-<!-- Contact Information -->
+  <!-- Contact Information -->
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-5" style="border-bottom:black;" >
       <h2 class="text-dark" style="background-color: rgb(108, 177, 238);"><strong><i class="fa far fa-address-book" style="font-size:20px;padding-right:10px;"></i> Contact Me</strong></h2>
           <div class="table-responsive">
@@ -92,8 +90,21 @@
   </div>
 </div>
 
+
+
 <!-- Footer  -->
 
       <nav class="navbar navbar-nav fixed-bottom  navbar-center  navbar-light text-white-50 bg-dark">
-        <footer> &copy; Kanyarut Pornamnuay</footer>
+        <footer>Copyright &copy;</footer>
       </nav>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>

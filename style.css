@@ -99,3 +99,40 @@ h2{
 #link-linkin, #link-github, #link-email{
     color: white;
 }
+
+
+#link-linkin:hover,#link-linkin:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#link-github:hover,#link-github:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#link-email:hover,#link-email:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#resumeDiv{
+   text-align: center;
+    margin-top: 30px;
+  
+}
+
+#resumeB:hover{
+    background-color: rgb(2, 158, 248);
+}
+
+
+
+
+
