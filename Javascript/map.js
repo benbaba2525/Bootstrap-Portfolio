@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuYmFiYTI1MjUiLCJhIjoiY2thbXc0MmFsMWl0NDJ2c
     var mapboxClient = mapboxSdk({ accessToken: mapboxgl.accessToken });
     mapboxClient.geocoding
         .forwardGeocode({
-            query: '5119 Fountain Ave, Los Angeles 90029, USA',
+            query: 'Los Angeles,USA',
             autocomplete: false,
             limit: 1
         })
