@@ -1,0 +1,208 @@
+body{
+  padding-top: 70px;
+  padding-bottom:100px;
+
+
+}
+
+
+.navbar-expand-lg{
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    font-size: 15px;
+    background-color: #81b9e4;
+    border: 1px solid gray;
+    border-bottom: 6px solid gray;
+   
+    
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+}
+.navbar-collapse{
+    background-color:  #81b9e4;
+    text-align:center;
+  
+}
+
+
+.jumbotron{
+    background-color: rgb(224, 240, 254);
+}
+
+.wrapper{
+    background-color: rgb(224, 240, 254);
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: solid;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+.contact{
+    border-bottom-style:  solid;
+}
+
+.card-img-top:hover{
+    background-color: rgb(6, 62, 245);
+    transform:                      scale(1.2);
+    cursor:                         pointer;
+   
+}
+
+.card-body{
+  background-color: rgb(224, 240, 254);
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.card-body:hover {
+    background-color: #0a9ff5;
+   
+  }
+
+.githubLink:hover{
+    color: rgb(252, 215, 10);
+}
+
+.contactDiv{
+    background-color:  rgb(224, 240, 254);
+    
+}
+
+
+#mypicDiv{
+    margin-top:-300px;
+   
+}
+
+#rowContact{
+    background-color: rgb(37, 110, 245);
+}
+
+#link-linkin, #link-github, #link-email{
+    color: white;
+}
+
+
+#link-linkin:hover,#link-linkin:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#link-github:hover,#link-github:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#link-email:hover,#link-email:active{
+
+    background-color: rgb(65, 58, 59);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#resumeDiv{
+   text-align: center;
+    margin-top: 30px;
+  
+}
+
+#resumeB:hover{
+    background-color: rgb(2, 158, 248);
+}
+
+#map {  width: 100%; }
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 991px or less.
+*/
+@media screen and (max-width: 991px){
+    #backgroundImg{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px){
+    #backgroundImg{
+        width: 100%;
+        height: 500px;
+    }
+
+    #rowContact{
+        text-align: center;
+    }
+
+    #link-linkin, #link-github, #link-email{
+        font-size: 30px;
+    }
+
+    #link-linkin:hover,#link-linkin:active{
+        font-size: 40px;
+    }
+    
+    #link-github:hover,#link-github:active{
+        font-size: 40px;
+    }
+    
+    #link-email:hover,#link-email:active{
+        font-size: 40px;
+    }
+    
+}
+
+/* Mobile devices (phones, 575px and smaller) */
+@media screen and (max-width: 575px) {
+
+#backgroundImg{
+    width: 100%;
+    height: 500px;
+}
+
+#link-linkin, #link-github, #link-email{
+    font-size:25px;
+}
+
+#link-linkin:hover,#link-linkin:active{
+    font-size: 35px;
+}
+
+#link-github:hover,#link-github:active{
+    font-size: 35px;
+}
+
+#link-email:hover,#link-email:active{
+    font-size: 35px;
+}
+
+
+}
