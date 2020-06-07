@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuYmFiYTI1MjUiLCJhIjoiY2tiNHVoODBpMHhzdzMyb
     var mapboxClient = mapboxSdk({ accessToken: mapboxgl.accessToken });
     mapboxClient.geocoding
         .forwardGeocode({
-            query: 'CA,USA',
+            query: 'Wellington, New Zealand',
             autocomplete: false,
             limit: 1
         })
