@@ -1,9 +1,9 @@
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuYmFiYTI1MjUiLCJhIjoiY2thbXc0MmFsMWl0NDJ2cXo0YzRqanR1ZyJ9.5sTRCYYLe8iSOjPnF84w7w';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuYmFiYTI1MjUiLCJhIjoiY2tiNHVoODBpMHhzdzMybnkxZjI5dWk5bSJ9.8U68YQZA49UsAmThznU1Xw';
     var mapboxClient = mapboxSdk({ accessToken: mapboxgl.accessToken });
     mapboxClient.geocoding
         .forwardGeocode({
-            query: 'California,USA',
+            query: 'CA,USA',
             autocomplete: false,
             limit: 1
         })
