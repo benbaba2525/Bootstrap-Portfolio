@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYmVuYmFiYTI1MjUiLCJhIjoiY2thbXc0MmFsMWl0NDJ2c
     var mapboxClient = mapboxSdk({ accessToken: mapboxgl.accessToken });
     mapboxClient.geocoding
         .forwardGeocode({
-            query: 'Los Angeles,USA',
+            query: 'California,USA',
             autocomplete: false,
             limit: 1
         })
