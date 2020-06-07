@@ -153,6 +153,27 @@ h2{
         width: 100%;
         height: 500px;
     }
+
+    #rowContact{
+        text-align: center;
+    }
+
+    #link-linkin, #link-github, #link-email{
+        font-size: 30px;
+    }
+
+    #link-linkin:hover,#link-linkin:active{
+        font-size: 40px;
+    }
+    
+    #link-github:hover,#link-github:active{
+        font-size: 40px;
+    }
+    
+    #link-email:hover,#link-email:active{
+        font-size: 40px;
+    }
+    
 }
 
 /* Mobile devices (phones, 575px and smaller) */
@@ -160,7 +181,23 @@ h2{
 
 #backgroundImg{
     width: 100%;
-    height: 500px;;
+    height: 500px;
+}
+
+#link-linkin, #link-github, #link-email{
+    font-size:25px;
+}
+
+#link-linkin:hover,#link-linkin:active{
+    font-size: 35px;
+}
+
+#link-github:hover,#link-github:active{
+    font-size: 35px;
+}
+
+#link-email:hover,#link-email:active{
+    font-size: 35px;
 }
 
 
