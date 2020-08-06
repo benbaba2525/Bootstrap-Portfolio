@@ -141,7 +141,7 @@ h2 {
 
 .skillDiv{
     background-color: rgb(29, 49, 73);
-    width:100%; 
+    background-size: cover;
     height: 700px; 
    
 }
