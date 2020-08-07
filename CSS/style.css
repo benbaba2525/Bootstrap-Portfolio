@@ -141,10 +141,9 @@ h2 {
 
 .skillDiv{
     background-color: rgb(29, 49, 73);
-    background-size: cover;
-    height: 700px; 
-   
+    height: 100%;  
 }
+
 .progress-bar {
     background-color: rgb(29, 49, 73);
     color: white;
@@ -197,10 +196,12 @@ h2 {
 
 .left{
     float: left;
+    margin: auto;
 }
 
 .right{
     float: right;
+    margin: auto;
 }
 
 /*
